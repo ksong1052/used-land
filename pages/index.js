@@ -3,10 +3,7 @@
 */ 
 
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.scss';
-// import Featured from '../components/Featured';
-// import PizzaList from '../components/PizzaList';
 import Main from '../components/Main';
 
 export default function Home() {
@@ -16,10 +13,10 @@ export default function Home() {
         <title>Style Yours</title>
         <meta name="description" content="Best women's bag shop in town" />
         <link rel="icon" href="/favicon.ico" />
-      </Head>      
-      {/* <Featured /> 
-      <PizzaList />      */}
+      </Head>        
+
       <Main />
+
     </div>
   )
 }
